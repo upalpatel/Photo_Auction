@@ -1,0 +1,24 @@
+body{
+    background: #5a646e;
+   
+}
+
+table.table-bordered > tbody > tr > td{
+    border:1px solid black;
+    color:whitesmoke;
+}
+
+.breadcrumb{
+    background: #294b82;
+    
+}
+
+.breadcrumb >.disabled{
+    color:rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+.breadcrumb >.active{
+    color:red;
+    text-decoration: none;
+}
