@@ -1,6 +1,6 @@
 # Photo Auction
 
-Web application designed using HTML, PHP, SQL & Bootstrap
+Web application designed using PHP, HTML, SQL & Bootstrap
 
 ## Getting Started
 
