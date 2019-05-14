@@ -28,9 +28,11 @@ To install the database with test data visit the sql directory for the .sql file
 
 Install entire database</br>
 
-```
-Install photo_auctions.sql -> source photo_auctions;
-```
+* Install photo_auctions.sql:</br>
+
+	```
+	-> source photo_auctions;
+	```
 
 ###### Method 2:</br>
 
