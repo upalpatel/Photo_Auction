@@ -1,37 +1,85 @@
-#Photo Auction</br>
-##Web Application</br>
-#####Designed using HTML, PHP, SQL & Bootstrap</br>
-####To install the database with test data:</br>
-(visit the sql directory for the .sql files)</br>
+# Photo Auction
 
-#####Access monitor:</br>
-mysql -u [username] -p;</br>
+Web application designed using HTML, PHP, SQL & Bootstrap
 
-######Method 1:</br>
-1) Install photo\_auctions.sql -> source photo_auctions;</br>
+## Getting Started
 
-######Method 2</br>
-(intsall each script separately):</br>
-</br>
-1) Install Create\_Table\_Member.sql -> source Create\_Table\_Member.sql;</br>
-2) Install Entry\_List.sql -> source Entry\_List.sql;</br>
-3) Install Project\_1\_image\_values.sql -> source Project\_1\_image\_values.sql;</br>
+These instructions will help you set up the project on your local machine
 
-#####For the following commands, exit the MySQL monitor:</br>
+### Prerequisites
 
-######Command used to dump the database:</br>
-mysqldump -u [username] -p [database] > db\_project\_backup.sql</br>
+Install one of the local servers listed below to setup the environment for databases
 
-######Command used to restore the dumped database:</br>
-mysql -u [username] -p -h localhost [database] < db\_project\_backup.sql
+```
+WAMP | LAMP | MAMP | XAMPP 
+```
 
-#####Existing accounts:</br>
-(use the account information below to surf the web app)</br>
+### Installing
 
-######Seller account:</br>
+To install the database with test data visit the sql directory for the .sql files</br>
+
+###### Access monitor:</br>
+
+```
+-> mysql -u [username] -p;
+```
+
+###### Method 1:</br>
+
+Install entire database</br>
+
+```
+Install photo_auctions.sql -> source photo_auctions;
+```
+
+###### Method 2:</br>
+
+Install each script separately</br>
+
+* Install Create_Table\_Member.sql:
+
+	```
+	-> source Create_Table_Member.sql;
+	```
+
+* Install Entry\_List.sql:
+
+
+	```
+	-> source Entry_List.sql;
+	```
+
+* Install Project\_1\_image_values.sql:
+
+
+	```
+	-> source Project_1_image_values.sql;
+	```
+
+## Dump & Restore Database
+
+For the following commands, exit the MySQL monitor:
+
+### Command used to dump the database:
+
+```
+mysqldump -u [username] -p [database] > db_project_backup.sql
+```
+
+### Command used to restore the dumped database:
+
+```
+mysql -u [username] -p -h localhost [database] < db_project_backup.sql
+```
+
+## Existing Accounts:
+
+Use the account information below to surf the web app</br>
+
+###### Seller Account:
 Email: visualsofupal@gmail.com</br>
 Password: vou123</br>
 
-######Buyer account:</br>
+###### Buyer Account:
 Email: j@nw.got.com</br>
 Password: j123</br>
